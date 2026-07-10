@@ -26,6 +26,7 @@ const INITIAL_STORES: StoreLocation[] = [
     coordinates: { lat: 28.495, lng: 77.088 },
     embedUrl: "https://maps.app.goo.gl/YJghCAg1Wmojbd1Z8"
   },
+  
   {
     id: 3,
     name: "Waffhil Silicon Galleria",
