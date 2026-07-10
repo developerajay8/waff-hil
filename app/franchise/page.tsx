@@ -21,7 +21,9 @@ export default function FranchisePage() {
       <SupportSystem />
       <ProcessTimeline />
       <FranchiseFAQ />
-      <EnquiryForm />
+      {/* <EnquiryForm /> */}
+
+      
       {/* <ContactDetails /> */}
     </>
   );

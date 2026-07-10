@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Phone, Mail, MapPin, MessageSquare, ArrowUpRight } from "lucide-react";
-import { BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsInstagram } from "react-icons/bs";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -19,8 +19,11 @@ export default function Footer() {
           </p>
           {/* Social Links Context */}
           <div className="flex items-center gap-4 pt-2">
-            <a href="https://instagram.com" className="w-9 h-9 rounded-full bg-[#fcfdfe]/5 flex items-center justify-center text-[#fcfdfe] hover:bg-[#b68cb2] hover:text-[#6e3568] transition-all duration-300">
+            <a href="https://www.instagram.com/waff_hil/" className="w-9 h-9 rounded-full bg-[#fcfdfe]/5 flex items-center justify-center text-[#fcfdfe] hover:bg-[#b68cb2] hover:text-[#6e3568] transition-all duration-300">
               <BsInstagram size={16} />
+            </a>
+            <a href="https://www.facebook.com/people/Waff-hil/61565659544711/?ref=PROFILE_EDIT_xav_ig_profile_page_web#" className="w-9 h-9 rounded-full bg-[#fcfdfe]/5 flex items-center justify-center text-[#fcfdfe] hover:bg-[#b68cb2] hover:text-[#6e3568] transition-all duration-300">
+              <BsFacebook size={16} />
             </a>
           </div>
         </div>
@@ -45,7 +48,7 @@ export default function Footer() {
             <li><Link href="/franchise#process" className="hover:text-[#fcfdfe] transition-colors">Setup Process</Link></li>
             <li><Link href="/franchise#faqs" className="hover:text-[#fcfdfe] transition-colors">Franchise FAQs</Link></li>
             <li>
-              <Link href="/franchise#enquiry" className="inline-flex items-center gap-1 text-[#b68cb2] font-medium hover:underline group">
+              <Link target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd5rSLQBdQiYvOhSeYEI8anqzDHNR7zhPODmUArOUcpl6DgJg/viewform" className="inline-flex items-center gap-1 text-[#b68cb2] font-medium hover:underline group">
                 Enquiry Form <ArrowUpRight size={14} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </Link>
             </li>
@@ -58,20 +61,20 @@ export default function Footer() {
           <ul className="flex flex-col gap-4 text-sm font-light text-[#fcfdfe]/80">
             <li className="flex items-start gap-3">
               <MapPin size={18} className="text-[#b68cb2] shrink-0 mt-0.5" />
-              <span>Corporate HQ, Premium Retail Boulevard, India</span>
+              <span>280, Opposite Hill Pizza, Gurunanakpura, Raja Park, Jaipur, Rajasthan 302004</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone size={16} className="text-[#b68cb2] shrink-0" />
-              <a href="tel:+911234567890" className="hover:text-[#fcfdfe] transition-colors">+91 12345 67890</a>
+              <a href="tel:+918955371827" className="hover:text-[#fcfdfe] transition-colors">+91 8955371827</a>
             </li>
             <li className="flex items-center gap-3">
               <Mail size={16} className="text-[#b68cb2] shrink-0" />
-              <a href="mailto:info@waffhil.com" className="hover:text-[#fcfdfe] transition-colors">info@waffhil.com</a>
+              <a href="mailto:Official.waffhil@gmail.com" className="hover:text-[#fcfdfe] transition-colors">Official.waffhil@gmail.com</a>
             </li>
             {/* Live WhatsApp Action Activation */}
             <li className="pt-2">
               <a 
-                href="https://wa.me/911234567890" 
+                href="https://wa.me/918955371827" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#fcfdfe]/10 border border-[#fcfdfe]/20 hover:bg-[#fcfdfe] hover:text-[#6e3568] px-4 py-2 rounded-xl text-xs font-semibold tracking-wider transition-all duration-300"

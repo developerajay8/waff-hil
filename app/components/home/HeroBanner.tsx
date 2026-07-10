@@ -18,16 +18,16 @@ export default function HeroBanner() {
         <div className="lg:col-span-6 flex flex-col items-start gap-5 sm:gap-6 max-w-2xl lg:max-w-none order-1">
           <div className="inline-flex items-center gap-2 bg-[#6e3568]/5 border border-[#6e3568]/10 px-4 py-2 rounded-full text-[11px] font-bold uppercase tracking-widest text-[#6e3568]">
             <Sparkles size={12} className="text-[#b68cb2]" />
-            <span>The Gold Standard of Waffles</span>
+            <span>India's Premium Gourmet Waffle Chain</span>
           </div>
           
           <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl font-extrabold text-[#6e3568] leading-[1.15] lg:leading-[1.1] tracking-tight">
-            Indulge in <br />
-            <span className="text-[#b68cb2] italic font-normal">Pure Golden</span> Perfection
+            Welcome to Waffhil – <br />
+            The Heart of <span className="text-[#b68cb2] italic font-normal">Artisanal Waffles</span>
           </h1>
           
           <p className="text-sm sm:text-base md:text-lg text-[#6e3568]/80 font-light leading-relaxed max-w-xl">
-            Crispy outside, melt-in-the-mouth inside. Crafted using signature premium ingredients and served hot just for your luxury cravings.
+            Crispy on the outside, melt-in-the-mouth inside. We craft Belgium's finest golden perfections with signature premium ingredients, trusted by thousands of dessert lovers daily.
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto pt-2 sm:pt-4">

@@ -14,7 +14,7 @@ const INITIAL_STORES: StoreLocation[] = [
     timings: "11:00 AM - 12:30 AM Everyday",
     phone: "+91 22 9876 5432",
     coordinates: { lat: 18.922, lng: 72.834 },
-    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m13!1d3774.218384218321!2d72.8318!3d18.9220!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDU1JzE5LjIiTiA3MsKwNDknNTQuNSJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+    embedUrl: "https://maps.app.goo.gl/YJghCAg1Wmojbd1Z8"
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const INITIAL_STORES: StoreLocation[] = [
     timings: "10:30 AM - 01:00 AM Everyday",
     phone: "+91 124 8765 4321",
     coordinates: { lat: 28.495, lng: 77.088 },
-    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m13!1d3507.491374567215!2d77.0858!3d28.4951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDI5JzQyLjQiTiA3N8KwMDUnMDguOSJF!5e0!3m2!1sen!2sin!4v1700000000001!5m2!1sen!2sin"
+    embedUrl: "https://maps.app.goo.gl/YJghCAg1Wmojbd1Z8"
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const INITIAL_STORES: StoreLocation[] = [
     timings: "11:00 AM - 11:30 PM Everyday",
     phone: "+91 80 7654 3210",
     coordinates: { lat: 12.971, lng: 77.641 },
-    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m13!1d3887.971574512918!2d77.6388!3d12.9719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU4JzE4LjgiTiA3N8KwMzgnMTkuNyJF!5e0!3m2!1sen!2sin!4v1700000000002!5m2!1sen!2sin"
+    embedUrl: "https://maps.app.goo.gl/YJghCAg1Wmojbd1Z8"
   }
 ];
 

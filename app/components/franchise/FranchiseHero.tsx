@@ -1,6 +1,7 @@
 "use client";
 
 import { Sparkles, ArrowDown } from "lucide-react";
+import Link from "next/link";
 
 export default function FranchiseHero() {
   const scrollToEnquiry = () => {
@@ -31,13 +32,13 @@ export default function FranchiseHero() {
           </p>
 
           <div className="pt-6">
-            <button 
+            <Link target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd5rSLQBdQiYvOhSeYEI8anqzDHNR7zhPODmUArOUcpl6DgJg/viewform" 
               onClick={scrollToEnquiry}
               className="group bg-[#6e3568] text-[#fcfdfe] px-8 py-4 rounded-full text-xs font-bold uppercase tracking-wider hover:bg-[#6e3568]/95 transition-all duration-300 shadow-xl shadow-[#6e3568]/10 flex items-center gap-2"
             >
-              <span>Begin Application Process</span>
+              <span>Submit Proposal Data</span>
               <ArrowDown size={14} className="group-hover:translate-y-0.5 transition-transform" />
-            </button>
+            </Link>
           </div>
           
         </div>

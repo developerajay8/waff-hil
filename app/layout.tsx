@@ -3,6 +3,8 @@ import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/app/components/global/Header";
 import Footer from "@/app/components/global/Footer";
+import FixedSocialBar from "./components/global/FixedSocialBar";
+import PromoPopup from "./components/global/PromoPopup";
 
 // Google Fonts Optimization
 const playfair = Playfair_Display({
@@ -52,6 +54,8 @@ export default function RootLayout({
         <main className="min-h-screen">
           {children}
         </main>
+        <FixedSocialBar />
+        <PromoPopup />
         <Footer />
       </body>
     </html>
