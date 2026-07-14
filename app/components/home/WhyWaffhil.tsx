@@ -7,6 +7,78 @@ interface RoadmapStep {
   isActive?: boolean;
 }
 
+import {
+  MapPin,
+  Store,
+  Coffee,
+  ChefHat,
+  Gift,
+  Cookie,
+  IceCreamCone,
+  BadgeDollarSign,
+} from "lucide-react";
+
+const floatingIcons = [
+  {
+    Icon: Coffee,
+    top: "8%",
+    left: "5%",
+    size: 40,
+    delay: "0s",
+  },
+  {
+    Icon: Cookie,
+    top: "18%",
+    right: "8%",
+    size: 55,
+    delay: "2s",
+  },
+  {
+    Icon: IceCreamCone,
+    top: "65%",
+    left: "3%",
+    size: 48,
+    delay: "4s",
+  },
+  {
+    Icon: ChefHat,
+    top: "75%",
+    right: "5%",
+    size: 45,
+    delay: "6s",
+  },
+  {
+    Icon: Store,
+    top: "40%",
+    left: "12%",
+    size: 42,
+    delay: "8s",
+  },
+  {
+    Icon: MapPin,
+    top: "28%",
+    right: "18%",
+    size: 38,
+    delay: "10s",
+  },
+  {
+    Icon: Gift,
+    top: "55%",
+    right: "28%",
+    size: 42,
+    delay: "12s",
+  },
+  {
+    Icon: BadgeDollarSign,
+    top: "10%",
+    left: "45%",
+    size: 46,
+    delay: "14s",
+  },
+];
+
+
+
 export default function WhyWaffHil() {
   const roadmap: RoadmapStep[] = [
     {
@@ -38,8 +110,36 @@ export default function WhyWaffHil() {
   ];
 
   return (
-    <section className="w-full md:py-24 py-16 bg-[#fcfdfe] select-none">
+    <section className="relative overflow-hidden w-full md:py-24 py-16 bg-[#fcfdfe] select-none">
+
       <div className="max-w-[1440px] mx-auto px-4 sm:px-8">
+        {/* Floating Background Icons */}
+
+<div className="absolute inset-0 pointer-events-none overflow-hidden">
+
+  {floatingIcons.map((item, index) => {
+    const Icon = item.Icon;
+
+    return (
+      <div
+        key={index}
+        className="absolute floating-icon"
+        style={{
+          top: item.top,
+          left: item.left,
+          right: item.right,
+          animationDelay: item.delay,
+        }}
+      >
+        <Icon
+          size={item.size}
+          strokeWidth={1.3}
+          className="text-[#9e6396]/10"
+        />
+      </div>
+    );
+  })}
+</div>
         
         {/* Clean Premium Header Section */}
         <div className="flex flex-col gap-2 mb-16 max-w-3xl">

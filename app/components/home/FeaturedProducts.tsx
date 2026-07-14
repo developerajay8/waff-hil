@@ -16,68 +16,75 @@ interface Product {
 export default function FeaturedProducts() {
   const products: Product[] = [
     {
-      id: 1,
-      title: "Waffles",
-      category: "19 VARIANTS",
-      tag: "Our Flagship",
-      image: "/Copy of 0fb4eb61-749a-43a3-839b-77b80395d4c0 - Harshit Khandelwal.jpeg", 
-      description: "From classic to loaded — waffles in every flavour imaginable. The repeat-order king of the menu.",
-      bgColor: "bg-[#f3ebf6]/40",
-    },
-    {
-      id: 2,
-      title: "Bowl Cakes",
-      category: "SIGNATURE ITEM",
-      tag: "Fresh & Indulgent",
-      image: "/lotus.jpeg",
-      description: "Warm cake served in a bowl, fresh and indulgent. A visual sensation and an Instagrammable staple.",
-      bgColor: "bg-[#f3ebf6]/40",
-    },
-    {
-      id: 3,
-      title: "Eton Mess",
-      category: "PREMIUM DESSERT",
-      tag: "Layered Blend",
-      image: "/meltbox.jpeg",
-      description: "A layered blend of meringue, cream and berries. Elevated dessert positioned for premium perception.",
-      bgColor: "bg-[#f3ebf6]/40",
-    },
-    {
-      id: 4,
-      title: "Mango Mess",
-      category: "SEASONAL SPECIAL",
-      tag: "Limited Batch",
-      image: "/Copy of 1c4911ba-1f86-44b8-be7b-5d203f89b11d - Harshit Khandelwal.jpeg",
-      description: "A tropical mango-forward twist on the classic — bright, refreshing and high-demand in summer months.",
-      bgColor: "bg-[#f3ebf6]/40",
-    },
-    {
-      id: 5,
-      title: "Brownies",
-      category: "RICH & FUDGY",
-      tag: "Crowd-Pleaser",
-      image: "/Biscoff Brownie.JPG.jpeg", 
-      description: "Decadent fudge brownies served warm. A universal crowd-pleaser that drives impulse orders.",
-      bgColor: "bg-[#f3ebf6]/40",
-    },
-    {
-      id: 6,
-      title: "Sundaes",
-      category: "ICE CREAM + TOPPINGS",
-      tag: "Signature Sauces",
-      image: "/Brownie Sundae.jpeg", 
-      description: "Classic sundae formats elevated with premium toppings and Waff~hilll's signature sauces.",
-      bgColor: "bg-[#f3ebf6]/40",
-    },
-    {
-      id: 7,
-      title: "Pancakes",
-      category: "STACKED VARIANTS",
-      tag: "Fluffy Stack",
-      image: "/Red velvet Sundae.JPG.jpeg", 
-      description: "Fluffy stacked pancakes — a breakfast-snack crossover that drives strong daytime footfall.",
-      bgColor: "bg-[#f3ebf6]/40",
-    }
+    id: 1,
+    title: "Mango Bliss Waffle",
+    category: "BESTSELLER",
+    tag: "Customer Favorite",
+    image: "/Copy of 0fb4eb61-749a-43a3-839b-77b80395d4c0 - Harshit Khandelwal.jpeg",
+    description:
+      "Golden waffles topped with creamy vanilla ice cream, fresh mango chunks, and rich mango drizzle for the perfect tropical indulgence.",
+    bgColor: "bg-[#f3ebf6]/40",
+  },
+  {
+    id: 2,
+    title: "Lotus Bowl Cake",
+    category: "SIGNATURE ITEM",
+    tag: "Most Loved",
+    image: "/lotus.jpeg",
+    description:
+      "A warm, soft bowl cake layered with Lotus Biscoff spread, crunchy biscuit crumbs, and silky chocolate for an unforgettable dessert.",
+    bgColor: "bg-[#f3ebf6]/40",
+  },
+  {
+    id: 3,
+    title: "Triple Chocolate Waffle",
+    category: "PREMIUM WAFFLE",
+    tag: "Chocolate Lover",
+    image: "/meltbox.jpeg",
+    description:
+      "Freshly baked waffles generously coated with white, milk, and dark chocolate for the ultimate chocolate experience.",
+    bgColor: "bg-[#f3ebf6]/40",
+  },
+  {
+    id: 4,
+    title: "Chocolate Truffle Bites",
+    category: "CHEF'S SPECIAL",
+    tag: "Limited Edition",
+    image: "/Copy of 1c4911ba-1f86-44b8-be7b-5d203f89b11d - Harshit Khandelwal.jpeg",
+    description:
+      "Rich chocolate truffle bites handcrafted with smooth chocolate coating that melts in every delicious bite.",
+    bgColor: "bg-[#f3ebf6]/40",
+  },
+  {
+    id: 5,
+    title: "Biscoff Brownie",
+    category: "RICH & FUDGY",
+    tag: "Crowd Favorite",
+    image: "/Biscoff Brownie.JPG.jpeg",
+    description:
+      "Warm, fudgy chocolate brownie topped with creamy Lotus Biscoff spread and crunchy biscuit crumbs for pure indulgence.",
+    bgColor: "bg-[#f3ebf6]/40",
+  },
+  {
+    id: 6,
+    title: "Brownie Sundae",
+    category: "ICE CREAM DELIGHT",
+    tag: "Signature Dessert",
+    image: "/Brownie Sundae.jpeg",
+    description:
+      "Rich chocolate brownie paired with creamy ice cream, chocolate sauce, and crunchy toppings for a dessert you'll crave.",
+    bgColor: "bg-[#f3ebf6]/40",
+  },
+  {
+    id: 7,
+    title: "Red Velvet Pancakes",
+    category: "FLUFFY STACKS",
+    tag: "Chef's Pick",
+    image: "/Red velvet Sundae.JPG.jpeg",
+    description:
+      "Soft red velvet pancakes layered with fresh cream and finished with crunchy red velvet crumbs for a luxurious treat.",
+    bgColor: "bg-[#f3ebf6]/40",
+  },
   ];
 
   return (

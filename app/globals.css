@@ -37,3 +37,140 @@ body {
   background: #ffffff;
   border-radius: 4px;
 } */
+
+
+
+@keyframes floatingIcon {
+
+  0% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: .18;
+  }
+
+  25% {
+    transform: translateY(-18px) rotate(6deg);
+    opacity: .28;
+  }
+
+  50% {
+    transform: translateY(-35px) rotate(-6deg);
+    opacity: .18;
+  }
+
+  75% {
+    transform: translateY(-18px) rotate(4deg);
+    opacity: .28;
+  }
+
+  100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: .18;
+  }
+
+}
+
+.floating-icon{
+
+  animation:floatingIcon 12s ease-in-out infinite;
+  will-change:transform;
+}
+
+
+/* ---------- Floating Icon 1 ---------- */
+
+@keyframes floatLeft {
+
+  0%{
+    transform:translateX(-40px) translateY(0px) rotate(0deg);
+  }
+
+  50%{
+    transform:translateX(40px) translateY(-20px) rotate(10deg);
+  }
+
+  100%{
+    transform:translateX(-40px) translateY(0px) rotate(0deg);
+  }
+
+}
+
+.animate-float-left{
+
+  animation:floatLeft 16s ease-in-out infinite;
+
+}
+
+
+/* ---------- Floating Icon 2 ---------- */
+
+@keyframes floatDown{
+
+  0%{
+    transform:translateY(-20px) rotate(0deg);
+  }
+
+  50%{
+    transform:translateY(40px) rotate(-12deg);
+  }
+
+  100%{
+    transform:translateY(-20px) rotate(0deg);
+  }
+
+}
+
+.animate-float-down{
+
+  animation:floatDown 18s ease-in-out infinite;
+
+}
+
+
+/* ---------- Floating Icon 3 ---------- */
+
+@keyframes floatRight{
+
+  0%{
+    transform:translateX(0px) translateY(0px) rotate(0deg);
+  }
+
+  50%{
+    transform:translateX(60px) translateY(-15px) rotate(15deg);
+  }
+
+  100%{
+    transform:translateX(0px) translateY(0px) rotate(0deg);
+  }
+
+}
+
+.animate-float-right{
+
+  animation:floatRight 20s ease-in-out infinite;
+
+}
+
+
+/* ---------- Floating Icon 4 ---------- */
+
+@keyframes floatDiagonal{
+
+  0%{
+    transform:translate(0px,0px) rotate(0deg);
+  }
+
+  50%{
+    transform:translate(-35px,-30px) rotate(-10deg);
+  }
+
+  100%{
+    transform:translate(0px,0px) rotate(0deg);
+  }
+
+}
+
+.animate-float-diagonal{
+
+  animation:floatDiagonal 22s ease-in-out infinite;
+
+}

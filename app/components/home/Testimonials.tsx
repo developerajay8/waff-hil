@@ -1,7 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import {
+  ArrowLeft,
+  ArrowRight,
+  Coffee,
+  IceCreamCone,
+  Store,
+  CakeSlice,
+} from "lucide-react";
 
 interface Testimonial {
   id: number;
@@ -48,8 +55,43 @@ export default function Testimonials() {
     setActiveIndex((prev) => (prev === reviews.length - 1 ? 0 : prev + 1));
   };
 
+  const bgIcons = [
+  {
+    Icon: Coffee,
+    className:
+      "top-10 left-10 w-20 h-20 text-[#9e6396]/10 animate-float-left",
+  },
+  {
+    Icon: IceCreamCone,
+    className:
+      "top-1/3 right-16 w-24 h-24 text-[#9e6396]/10 animate-float-down",
+  },
+  {
+    Icon: CakeSlice,
+    className:
+      "bottom-16 left-1/3 w-24 h-24 text-[#9e6396]/10 animate-float-right",
+  },
+  {
+    Icon: Store,
+    className:
+      "bottom-10 right-12 w-20 h-20 text-[#9e6396]/10 animate-float-diagonal",
+  },
+];
+
   return (
-    <section className="w-full md:py-28 py-16 bg-[#fcfdfe] select-none">
+    <section className="relative overflow-hidden w-full md:py-28 py-16 bg-[#fcfdfe] select-none">
+
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+
+  {bgIcons.map(({ Icon, className }, index) => (
+    <Icon
+      key={index}
+      strokeWidth={1.2}
+      className={`absolute ${className}`}
+    />
+  ))}
+
+</div>
       <div className="max-w-[1440px] mx-auto px-4 sm:px-8">
         
         {/* Minimal Editorial Header Line */}
