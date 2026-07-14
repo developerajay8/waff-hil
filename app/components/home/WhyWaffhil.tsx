@@ -33,7 +33,7 @@ export default function WhyWaffHil() {
     {
       stepNumber: "05",
       title: "Grand Opening",
-      desc: "Your Waff~hil outlet opens — backed by a launch campaign and full operational readiness.",
+      desc: "Your Waff~hill outlet opens — backed by a launch campaign and full operational readiness.",
     },
   ];
 

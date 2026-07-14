@@ -66,7 +66,7 @@ export default function FeaturedProducts() {
       category: "ICE CREAM + TOPPINGS",
       tag: "Signature Sauces",
       image: "/Brownie Sundae.jpeg", 
-      description: "Classic sundae formats elevated with premium toppings and Waff~hill's signature sauces.",
+      description: "Classic sundae formats elevated with premium toppings and Waff~hilll's signature sauces.",
       bgColor: "bg-[#f3ebf6]/40",
     },
     {

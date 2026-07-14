@@ -38,7 +38,7 @@ export default function FixedSocialBar() {
           href="https://apps.apple.com/app/id6784344028"
           target="_blank"
           className="p-2.5 rounded-full bg-[#6e3568] text-[#fcfdfe] hover:bg-[#b68cb2] transition-all duration-300 shadow-md group relative"
-          title="Download Waff~hil App"
+          title="Download Waff~hill App"
         >
           <Smartphone size={18} />
           {/* Tooltip on hover */}

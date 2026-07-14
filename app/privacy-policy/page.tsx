@@ -14,7 +14,7 @@ export default function PrivacyPolicyPage() {
     {
       icon: <Lock size={20} className="text-[#b68cb2]" />,
       title: "How We Protect Your Information",
-      content: "Waff~hil implements rigorous hardware-accelerated security controls and encrypted storage clusters to process your structural credentials. Your personal records are strictly confidential and are isolated behind highly monitored network firewalls to completely neutralize unauthorized profile leaks."
+      content: "Waff~hill implements rigorous hardware-accelerated security controls and encrypted storage clusters to process your structural credentials. Your personal records are strictly confidential and are isolated behind highly monitored network firewalls to completely neutralize unauthorized profile leaks."
     },
     {
       icon: <Shield size={20} className="text-[#b68cb2]" />,
@@ -64,7 +64,7 @@ export default function PrivacyPolicyPage() {
           
           {/* Introductory Preamble */}
           <div className="bg-[#6e3568]/[0.01] border border-[#6e3568]/5 rounded-3xl p-6 sm:p-8 text-sm sm:text-base text-[#6e3568]/80 font-light leading-relaxed">
-            At <strong>Waff~hil</strong>, we prioritize the protection and security parameters of our consumers, investors, and job candidates. This privacy layout systematically breaks down how we compile, lock down, and execute data lifecycle mechanics across our digital networks.
+            At <strong>Waff~hill</strong>, we prioritize the protection and security parameters of our consumers, investors, and job candidates. This privacy layout systematically breaks down how we compile, lock down, and execute data lifecycle mechanics across our digital networks.
           </div>
 
           {/* Structured Policy Nodes */}
@@ -98,10 +98,10 @@ export default function PrivacyPolicyPage() {
             </p>
             <p className="pt-2">
               <a 
-                href="mailto:legal@Waff~hil.com" 
+                href="mailto:legal@Waff~hill.com" 
                 className="text-xs font-bold uppercase tracking-wider bg-[#6e3568] text-[#fcfdfe] px-5 py-2.5 rounded-xl hover:bg-[#b68cb2] transition-colors duration-300"
               >
-                legal@Waff~hil.com
+                legal@Waff~hill.com
               </a>
             </p>
           </div>

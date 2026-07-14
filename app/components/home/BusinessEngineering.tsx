@@ -23,7 +23,7 @@ export default function BusinessEngineering() {
     {
       icon: <UserCheck size={18} className="text-[#6e3568]" />,
       title: "Chef-Light Model",
-      desc: "Cleverly designed for minimal skilled labor. Any motivated internal team can successfully run a standard Waff~hil outlet.",
+      desc: "Cleverly designed for minimal skilled labor. Any motivated internal team can successfully run a standard Waff~hill outlet.",
     },
     {
       icon: <Star size={18} className="text-[#6e3568]" />,
@@ -55,7 +55,7 @@ export default function BusinessEngineering() {
             </span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl font-medium text-[#6e3568] tracking-tight leading-tight">
-            Why Traditional F&B Fails & Where Waff~hil Wins
+            Why Traditional F&B Fails & Where Waff~hill Wins
           </h2>
         </div>
 
