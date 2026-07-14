@@ -1,5 +1,15 @@
 "use client";
 
+const scrollToSection = () => {
+  const section = document.getElementById("contact");
+
+  if (section) {
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+};
 interface FranchiseModel {
   badge: string;
   title: string;
@@ -16,7 +26,7 @@ export default function StoreCount() {
       badge: "PRIMARY FORMAT · PAN-INDIA",
       title: "FOFO Model",
       subtitle: "Franchise Owned · Franchise Operated",
-      tagline: "Primary pan-India structure. You own and run the outlet with Waffhil's systems, training and brand support.",
+      tagline: "Primary pan-India structure. You own and run the outlet with Waff~hil's systems, training and brand support.",
       features: [
         "Franchise Term: 2.5 Years duration",
         "Monthly Royalty: Rs. 5,000 flat / fixed",
@@ -30,7 +40,7 @@ export default function StoreCount() {
       badge: "JAIPUR METRO ONLY",
       title: "FOCO Model",
       subtitle: "Franchise Owned · Company Operated",
-      tagline: "Waffhil manages hiring, training, operations and rigorous quality control. You provide the strategic space.",
+      tagline: "Waff~hil manages hiring, training, operations and rigorous quality control. You provide the strategic space.",
       features: [
         "Available strictly within Jaipur region",
         "Complete hands-free passive business run",
@@ -67,7 +77,7 @@ export default function StoreCount() {
             </span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl font-medium text-[#6e3568] tracking-tight leading-tight">
-            Why Entrepreneurs Choose Waffhil
+            Why Entrepreneurs Choose Waff~hil
           </h2>
           <p className="text-[#6e3568]/70 font-normal text-sm md:text-base mt-1">
             Built for scalability, engineered for absolute simple execution.
@@ -121,13 +131,13 @@ export default function StoreCount() {
                 </ul>
               </div>
 
-              <div className="pt-2">
+              <div  className="pt-2">
                 {model.isPopular ? (
-                  <button className="w-full bg-[#fcfdfe] text-[#6e3568] hover:bg-[#fcfdfe]/90 font-bold text-xs tracking-wider uppercase py-4 px-6 rounded-full shadow-md transition-all duration-300">
+                  <button onClick={scrollToSection} className="w-full bg-[#fcfdfe] text-[#6e3568] hover:bg-[#fcfdfe]/90 font-bold cursor-pointer text-xs tracking-wider uppercase py-4 px-6 rounded-full shadow-md transition-all duration-300">
                     {model.buttonText}
                   </button>
                 ) : (
-                  <button className="w-full bg-transparent hover:bg-[#6e3568] text-[#6e3568] hover:text-[#fcfdfe] font-bold text-xs tracking-wider uppercase py-4 px-6 rounded-full border border-[#6e3568]/20 transition-all duration-300">
+                  <button onClick={scrollToSection} className="w-full bg-transparent hover:bg-[#6e3568] text-[#6e3568] cursor-pointer hover:text-[#fcfdfe] font-bold text-xs tracking-wider uppercase py-4 px-6 rounded-full border border-[#6e3568]/20 transition-all duration-300">
                     {model.buttonText}
                   </button>
                 )}

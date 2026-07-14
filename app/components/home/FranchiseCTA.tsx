@@ -15,7 +15,7 @@ export default function FranchiseCTA() {
             </div>
             
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#fcfdfe] leading-tight">
-              Build Your High-Return Dessert Empire with Waffhil
+              Build Your High-Return Dessert Empire with Waff~hil
             </h2>
             
             <p className="text-sm sm:text-base text-[#fcfdfe]/80 font-light leading-relaxed max-w-xl">

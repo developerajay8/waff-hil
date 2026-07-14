@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 interface Product {
   id: number;
@@ -102,6 +103,7 @@ export default function FeaturedProducts() {
         {/* 📱 MOBILE VIEW: Stack-on-Scroll Layout */}
         <div className="flex flex-col gap-8 md:hidden relative">
           {products.map((product, index) => (
+            <Link className="cursor-pointer" target="_blank" href={"https://apps.apple.com/app/id6784344028"}>
             <div
               key={`mobile-${product.id}`}
               style={{ top: `${80 + index * 20}px` }}
@@ -128,6 +130,7 @@ export default function FeaturedProducts() {
                 </p>
               </div>
             </div>
+            </Link>
           ))}
         </div>
 
@@ -135,6 +138,7 @@ export default function FeaturedProducts() {
         <div className="hidden md:block w-full group/scroll">
           <div className="flex gap-6 overflow-x-auto pb-6 pt-1 scrollbar-none snap-x snap-mandatory">
             {products.map((product) => (
+              <Link className="cursor-pointer" target="_blank" href={"https://apps.apple.com/app/id6784344028"}>
               <div
                 key={`desktop-${product.id}`}
                 className="flex-shrink-0 w-[310px] lg:w-[330px] rounded-[2rem] overflow-hidden border border-[#6e3568]/10 bg-[#fcfdfe] hover:shadow-[0_20px_50px_rgba(110,53,104,0.06)] transition-all duration-500 snap-start flex flex-col justify-between"
@@ -167,6 +171,7 @@ export default function FeaturedProducts() {
                   </p>
                 </div>
               </div>
+              </Link>
             ))}
           </div>
 

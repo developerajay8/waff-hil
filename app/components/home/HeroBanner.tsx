@@ -27,7 +27,7 @@ export default function HeroBanner() {
           </h1>
           
           <p className="text-sm sm:text-base md:text-lg text-[#6e3568]/80 font-light leading-relaxed max-w-xl">
-           Waff-hil is a premium dessert franchise built by a group of friends who wanted Tier-1 indulgence without the Tier-1 price tag — or the pretense. 10+ outlets, and counting.
+           Waff~hil is a premium dessert franchise built by a group of friends who wanted Tier-1 indulgence without the Tier-1 price tag — or the pretense. 10+ outlets, and counting.
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto pt-2 sm:pt-4">

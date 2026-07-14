@@ -7,7 +7,7 @@ interface RoadmapStep {
   isActive?: boolean;
 }
 
-export default function WhyWaffhil() {
+export default function WhyWaffHil() {
   const roadmap: RoadmapStep[] = [
     {
       stepNumber: "01",
@@ -33,7 +33,7 @@ export default function WhyWaffhil() {
     {
       stepNumber: "05",
       title: "Grand Opening",
-      desc: "Your Waffhil outlet opens — backed by a launch campaign and full operational readiness.",
+      desc: "Your Waff~hil outlet opens — backed by a launch campaign and full operational readiness.",
     },
   ];
 

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Layers } from "lucide-react";
+import Link from "next/link";
 
 export interface ProductItem {
   id: number;
@@ -34,6 +35,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
         {/* Modern 3-Column Product Responsive Mesh */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
           {products.map((item) => (
+            <Link className="cursor-pointer" target="_blank" href={"https://apps.apple.com/app/id6784344028"}>
             <div
               key={item.id}
               className="group flex flex-col bg-[#fcfdfe] rounded-[2rem] overflow-hidden border border-[#6e3568]/5 shadow-[0_10px_40px_rgba(110,53,104,0.01)] hover:shadow-[0_20px_50px_rgba(110,53,104,0.05)] transition-all duration-500 ease-out transform-gpu"
@@ -95,6 +97,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
 
               </div>
             </div>
+            </Link>
           ))}
         </div>
 

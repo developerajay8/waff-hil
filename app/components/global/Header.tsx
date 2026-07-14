@@ -24,7 +24,7 @@ export default function Header() {
     { name: "Franchise", href: "/franchise" },
     { name: "Stores", href: "/stores" },
     { name: "Careers", href: "/careers" },
-    { name: "Contact", href: "", isExternal: true },
+    { name: "Contact", href: "/contact", isExternal: false },
   ];
 
   return (

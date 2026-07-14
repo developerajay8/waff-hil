@@ -91,7 +91,7 @@ export default function Footer() {
       {/* Corporate Metadata & Compliance Footer End */}
       <div className="max-w-[1440px] mx-auto px-4 sm:px-8 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-light text-[#fcfdfe]/40">
   <p>
-    © {currentYear} Waffhil. All rights reserved. | Developed by{" "}
+    © {currentYear} Waff~hil. All rights reserved. | Developed by{" "}
     <a
       href="https://www.teamupservices.in/"
       target="_blank"

@@ -25,7 +25,7 @@ export default function FranchiseNetwork() {
   };
 
   return (
-    <div className="w-full bg-[#fcfdfe] select-none">
+    <div  className="w-full bg-[#fcfdfe] select-none">
       
       {/* SECTION 1: OUTLET TRACKER (WHERE WE ARE) */}
       <section className="w-full md:py-24 py-16 max-w-[1440px] mx-auto px-4 sm:px-8">
@@ -103,7 +103,7 @@ export default function FranchiseNetwork() {
       <FAQ/>
 
       {/* SECTION 2: FRANCHISE LEAD FORM (BRING THE VIBE) */}
-      <section  style={{ backgroundColor: "#6e3568" }}
+      <section id="contact" style={{ backgroundColor: "#6e3568" }}
   className="w-full text-white md:py-24 py-16">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           
@@ -233,9 +233,11 @@ export default function FranchiseNetwork() {
                       onChange={(e) => setFormData({...formData, investment: e.target.value})}
                       className="w-full appearance-none px-4 py-3 rounded-xl border border-[#6e3568]/10 bg-[#f3ebf6]/20 font-medium text-xs focus:outline-none focus:border-[#6e3568] cursor-pointer transition-colors text-[#6e3568]"
                     >
-                      <option value="Under 25 Lakhs">Under 25 Lakhs</option>
-                      <option value="25 - 50 Lakhs">25 - 50 Lakhs</option>
-                      <option value="50 Lakhs +">50 Lakhs +</option>
+                      <option value="Under 6.5 Lakhs">Under 6.5 Lakhs</option>
+                      <option value="8 - 10 Lakhs">8 - 10 Lakhs</option>
+                      <option value="12 - 15 Lakhs ">12 - 15 Lakhs</option>
+                      <option value=" 25 Lakhs +">25 Lakhs +</option>
+
                     </select>
                     <ChevronDown size={14} className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-[#6e3568]/60" />
                   </div>

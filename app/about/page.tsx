@@ -3,10 +3,11 @@ import OurStory from "@/app/components/about/OurStory";
 import MissionVision from "@/app/components/about/MissionVision";
 import StoreCount from "../components/home/StoreCount";
 import FranchiseCTA from "../components/home/FranchiseCTA";
+import FranchiseNetwork from "../components/home/FranchiseNetwork";
 
 export const metadata = {
-  title: "About Us | Our Story & Vision - Waffhil",
-  description: "Discover the heritage, mission, and craftsmanship behind Waffhil. Learn how we engineer India's premier luxury dessert and waffle network.",
+  title: "About Us | Our Story & Vision - Waff~hil",
+  description: "Discover the heritage, mission, and craftsmanship behind Waff~hil. Learn how we engineer India's premier luxury dessert and waffle network.",
 };
 
 export default function AboutPage() {
@@ -14,9 +15,10 @@ export default function AboutPage() {
     <>
       <AboutHero />
       <OurStory />
-      <StoreCount />
       <MissionVision />
             <FranchiseCTA />
+      <StoreCount />
+      <FranchiseNetwork/>
     </>
   );
 }

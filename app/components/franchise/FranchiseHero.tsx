@@ -1,12 +1,22 @@
 "use client";
 
 import { Sparkles, ArrowDown } from "lucide-react";
-import Link from "next/link";
 
+const scrollToSection = () => {
+  const section = document.getElementById("contact");
+
+  if (section) {
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+};
 export default function FranchiseHero() {
-  const scrollToEnquiry = () => {
-    document.getElementById("enquiry")?.scrollIntoView({ behavior: "smooth" });
-  };
+  
+
+
+  
 
   return (
     <section className="relative w-full min-h-[75vh] lg:min-h-[85vh] flex items-center bg-[#fcfdfe] pt-32 pb-16 overflow-hidden select-none">
@@ -32,13 +42,13 @@ export default function FranchiseHero() {
           </p>
 
           <div className="pt-6">
-            <Link target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd5rSLQBdQiYvOhSeYEI8anqzDHNR7zhPODmUArOUcpl6DgJg/viewform" 
-              onClick={scrollToEnquiry}
-              className="group bg-[#6e3568] text-[#fcfdfe] px-8 py-4 rounded-full text-xs font-bold uppercase tracking-wider hover:bg-[#6e3568]/95 transition-all duration-300 shadow-xl shadow-[#6e3568]/10 flex items-center gap-2"
+            <button 
+              onClick={scrollToSection}
+              className="group cursor-pointer bg-[#6e3568] text-[#fcfdfe] px-8 py-4 rounded-full text-xs font-bold uppercase tracking-wider hover:bg-[#6e3568]/95 transition-all duration-300 shadow-xl shadow-[#6e3568]/10 flex items-center gap-2"
             >
               <span>Submit Proposal Data</span>
               <ArrowDown size={14} className="group-hover:translate-y-0.5 transition-transform" />
-            </Link>
+            </button>
           </div>
           
         </div>
