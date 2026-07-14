@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
 
 interface Product {
   id: number;
@@ -9,91 +8,172 @@ interface Product {
   category: string;
   tag: string;
   image: string;
+  description: string;
+  bgColor: string;
 }
 
 export default function FeaturedProducts() {
   const products: Product[] = [
     {
       id: 1,
-      title: "Signature Mango Injector Waffle",
-      category: "Fruit Luxuries",
-      tag: "Seasonal Masterpiece",
-      image: "/Copy of 0fb4eb61-749a-43a3-839b-77b80395d4c0 - Harshit Khandelwal.jpeg",
+      title: "Waffles",
+      category: "19 VARIANTS",
+      tag: "Our Flagship",
+      image: "/Copy of 0fb4eb61-749a-43a3-839b-77b80395d4c0 - Harshit Khandelwal.jpeg", 
+      description: "From classic to loaded — waffles in every flavour imaginable. The repeat-order king of the menu.",
+      bgColor: "bg-[#f3ebf6]/40",
     },
     {
       id: 2,
-      title: "Belgian Classic Melt Box",
-      category: "Dark Cocoa",
-      tag: "Chef's Special",
-      image: "/meltbox.jpeg", 
+      title: "Bowl Cakes",
+      category: "SIGNATURE ITEM",
+      tag: "Fresh & Indulgent",
+      image: "/lotus.jpeg",
+      description: "Warm cake served in a bowl, fresh and indulgent. A visual sensation and an Instagrammable staple.",
+      bgColor: "bg-[#f3ebf6]/40",
     },
     {
       id: 3,
-      title: "Lotus Biscoff Dessert Square",
-      category: "Premium Cakes",
-      tag: "Best Seller",
-      image: "/lotus.jpeg",
+      title: "Eton Mess",
+      category: "PREMIUM DESSERT",
+      tag: "Layered Blend",
+      image: "/meltbox.jpeg",
+      description: "A layered blend of meringue, cream and berries. Elevated dessert positioned for premium perception.",
+      bgColor: "bg-[#f3ebf6]/40",
     },
+    {
+      id: 4,
+      title: "Mango Mess",
+      category: "SEASONAL SPECIAL",
+      tag: "Limited Batch",
+      image: "/Copy of 1c4911ba-1f86-44b8-be7b-5d203f89b11d - Harshit Khandelwal.jpeg",
+      description: "A tropical mango-forward twist on the classic — bright, refreshing and high-demand in summer months.",
+      bgColor: "bg-[#f3ebf6]/40",
+    },
+    {
+      id: 5,
+      title: "Brownies",
+      category: "RICH & FUDGY",
+      tag: "Crowd-Pleaser",
+      image: "/Biscoff Brownie.JPG.jpeg", 
+      description: "Decadent fudge brownies served warm. A universal crowd-pleaser that drives impulse orders.",
+      bgColor: "bg-[#f3ebf6]/40",
+    },
+    {
+      id: 6,
+      title: "Sundaes",
+      category: "ICE CREAM + TOPPINGS",
+      tag: "Signature Sauces",
+      image: "/Brownie Sundae.jpeg", 
+      description: "Classic sundae formats elevated with premium toppings and Waff~hill's signature sauces.",
+      bgColor: "bg-[#f3ebf6]/40",
+    },
+    {
+      id: 7,
+      title: "Pancakes",
+      category: "STACKED VARIANTS",
+      tag: "Fluffy Stack",
+      image: "/Red velvet Sundae.JPG.jpeg", 
+      description: "Fluffy stacked pancakes — a breakfast-snack crossover that drives strong daytime footfall.",
+      bgColor: "bg-[#f3ebf6]/40",
+    }
   ];
 
   return (
-    <section className="w-full md:py-24 py-10 bg-[#fcfdfe]">
+    <section className="w-full md:py-24 py-16 bg-[#fcfdfe]">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-8">
         
-        {/* Grid Header Node */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
-          <div className="flex flex-col gap-3">
-            <span className="text-xs font-bold uppercase tracking-widest text-[#b68cb2]">Curated Collection</span>
-            <h2 className="font-serif text-3xl sm:text-4xl font-extrabold text-[#6e3568]">The Signature Lineup</h2>
+        {/* Header Structure Area */}
+        <div className="flex flex-col gap-2 mb-14 max-w-2xl">
+          <div className="flex items-center gap-2">
+            <div className="w-5 h-[1.5px] bg-[#9e6396]" />
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#9e6396]">
+              OUR MENU
+            </span>
           </div>
-          <p className="text-[#6e3568]/70 font-light max-w-md text-sm sm:text-base">
-            Every creation is engineered to maintain crisp texture benchmarks and premium chocolate density balance.
+          <h2 className="font-serif text-3xl sm:text-4xl font-medium text-[#6e3568] tracking-tight leading-tight">
+            Products Customers Keep Coming Back For
+          </h2>
+          <p className="text-[#6e3568]/70 font-normal text-sm md:text-base mt-1">
+            Seven hero categories. Hundreds of reasons to return.
           </p>
         </div>
 
-        {/* Product Cards Interactive Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
-          {products.map((product) => (
-            <div 
-              key={product.id} 
-              className="group flex flex-col bg-[#fcfdfe] rounded-[2rem] overflow-hidden border border-[#6e3568]/5 shadow-[0_10px_40px_rgba(110,53,104,0.02)] hover:shadow-[0_20px_50px_rgba(110,53,104,0.06)] transition-all duration-500 ease-out"
+        {/* 📱 MOBILE VIEW: Stack-on-Scroll Layout */}
+        <div className="flex flex-col gap-8 md:hidden relative">
+          {products.map((product, index) => (
+            <div
+              key={`mobile-${product.id}`}
+              style={{ top: `${80 + index * 20}px` }}
+              className="sticky w-full rounded-[2rem] overflow-hidden border border-[#6e3568]/5 shadow-[0_12px_35px_rgba(110,53,104,0.04)] bg-[#fcfdfe]"
             >
-              {/* Product Layout Image Box */}
-              <div className="relative w-full aspect-[4/3] overflow-hidden bg-[#6e3568]/5">
-                <span className="absolute top-4 left-4 z-10 bg-[#fcfdfe] text-[#6e3568] px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest border border-[#6e3568]/10 shadow-sm">
-                  {product.tag}
-                </span>
+              <div className="relative w-full aspect-[4/3] bg-[#6e3568]/5">
                 <Image
                   src={product.image}
                   alt={product.title}
                   fill
-                  sizes="(max-w-768px) 100vw, (max-w-1200px) 50vw, 33vw"
-                  className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                  className="object-cover"
                 />
               </div>
-
-              {/* Product Info Segment */}
-              <div className="p-8 flex flex-col flex-grow justify-between gap-4">
-                <div className="flex flex-col gap-1.5">
-                  <span className="text-xs font-semibold tracking-wider text-[#b68cb2] uppercase">
-                    {product.category}
-                  </span>
-                  <h3 className="font-serif text-lg font-bold text-[#6e3568] leading-snug group-hover:text-[#b68cb2] transition-colors duration-300">
-                    {product.title}
-                  </h3>
-                </div>
-                
-                <div className="pt-2 border-t border-[#6e3568]/5 flex items-center justify-between group/btn cursor-pointer">
-                  <span className="text-xs font-bold uppercase tracking-wider text-[#6e3568]/60 group-hover/btn:text-[#6e3568] transition-colors">
-                    View Tasting Profiles
-                  </span>
-                  <div className="w-8 h-8 rounded-full bg-[#6e3568]/5 group-hover:bg-[#6e3568] group-hover:text-[#fcfdfe] flex items-center justify-center transition-all duration-300">
-                    <ArrowUpRight size={14} />
-                  </div>
-                </div>
+              
+              <div className={`p-6 flex flex-col gap-1.5 ${product.bgColor}`}>
+                <span className="text-[9px] font-bold uppercase tracking-wider text-[#9e6396]">
+                  {product.category}
+                </span>
+                <h3 className="font-serif text-lg font-bold text-[#6e3568]">
+                  {product.title}
+                </h3>
+                <p className="text-xs text-[#6e3568]/75 font-normal leading-relaxed">
+                  {product.description}
+                </p>
               </div>
             </div>
           ))}
+        </div>
+
+        {/* 💻 DESKTOP & TABLET VIEW: Horizontal Slider Track */}
+        <div className="hidden md:block w-full group/scroll">
+          <div className="flex gap-6 overflow-x-auto pb-6 pt-1 scrollbar-none snap-x snap-mandatory">
+            {products.map((product) => (
+              <div
+                key={`desktop-${product.id}`}
+                className="flex-shrink-0 w-[310px] lg:w-[330px] rounded-[2rem] overflow-hidden border border-[#6e3568]/10 bg-[#fcfdfe] hover:shadow-[0_20px_50px_rgba(110,53,104,0.06)] transition-all duration-500 snap-start flex flex-col justify-between"
+              >
+                <div className="relative w-full aspect-[4/3.2] overflow-hidden bg-[#6e3568]/5">
+                  <Image
+                    key={product.id}
+                    src={product.image}
+                    alt={product.title}
+                    fill
+                    sizes="360px"
+                    className="object-cover transition-transform duration-700 ease-out hover:scale-103"
+                  />
+                </div>
+
+                <div className={`p-6 flex flex-col flex-grow gap-2 ${product.bgColor} border-t border-[#6e3568]/5`}>
+                  <div className="flex items-center justify-between">
+                    <span className="text-[9px] font-bold uppercase tracking-wider text-[#9e6396]">
+                      {product.category}
+                    </span>
+                    <span className="text-[9px] font-medium text-[#6e3568]/50 italic">
+                      {product.tag}
+                    </span>
+                  </div>
+                  <h3 className="font-serif text-xl font-bold text-[#6e3568] leading-tight">
+                    {product.title}
+                  </h3>
+                  <p className="text-xs text-[#6e3568]/70 font-normal leading-relaxed">
+                    {product.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Premium Fine Baseline Progress Indicator */}
+          <div className="w-full h-[2px] bg-purple-100 rounded-full mt-4 relative overflow-hidden">
+            <div className="absolute top-0 left-0 w-1/4 h-full bg-[#9e6396] rounded-full group-hover/scroll:translate-x-[300%] transition-transform duration-[2s] ease-in-out" />
+          </div>
         </div>
 
       </div>

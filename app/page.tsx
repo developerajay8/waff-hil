@@ -4,6 +4,9 @@ import FeaturedProducts from "@/app/components/home/FeaturedProducts";
 import WhyWaffhil from "@/app/components/home/WhyWaffhil";
 import StoreCount from "@/app/components/home/StoreCount";
 import FranchiseCTA from "@/app/components/home/FranchiseCTA";
+import BusinessEngineering from "./components/home/BusinessEngineering";
+import Testimonials from "./components/home/Testimonials";
+import FranchiseNetwork from "./components/home/FranchiseNetwork";
 
 export default function HomePage() {
   return (
@@ -13,7 +16,10 @@ export default function HomePage() {
       <FeaturedProducts />
       <WhyWaffhil />
       <StoreCount />
+      <BusinessEngineering/>
       <FranchiseCTA />
+      <Testimonials/>
+      <FranchiseNetwork/>
     </>
   );
 }

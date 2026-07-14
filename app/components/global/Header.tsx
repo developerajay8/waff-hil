@@ -24,7 +24,7 @@ export default function Header() {
     { name: "Franchise", href: "/franchise" },
     { name: "Stores", href: "/stores" },
     { name: "Careers", href: "/careers" },
-    { name: "Contact", href: "https://docs.google.com/forms/d/e/1FAIpQLSd5rSLQBdQiYvOhSeYEI8anqzDHNR7zhPODmUArOUcpl6DgJg/viewform", isExternal: true },
+    { name: "Contact", href: "", isExternal: true },
   ];
 
   return (
