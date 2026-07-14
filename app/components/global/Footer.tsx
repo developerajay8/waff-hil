@@ -48,7 +48,7 @@ export default function Footer() {
             <li><Link href="/franchise#process" className="hover:text-[#fcfdfe] transition-colors">Setup Process</Link></li>
             <li><Link href="/franchise#faqs" className="hover:text-[#fcfdfe] transition-colors">Franchise FAQs</Link></li>
             <li>
-              <Link target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd5rSLQBdQiYvOhSeYEI8anqzDHNR7zhPODmUArOUcpl6DgJg/viewform" className="inline-flex items-center gap-1 text-[#b68cb2] font-medium hover:underline group">
+              <Link href="/contact" className="inline-flex items-center gap-1 text-[#b68cb2] font-medium hover:underline group">
                 Enquiry Form <ArrowUpRight size={14} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </Link>
             </li>
