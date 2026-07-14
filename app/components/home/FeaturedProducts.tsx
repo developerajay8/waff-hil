@@ -27,7 +27,7 @@ export default function FeaturedProducts() {
   },
   {
     id: 2,
-    title: "Lotus Bowl Cake",
+    title: "biscoff bowl cake",
     category: "SIGNATURE ITEM",
     tag: "Most Loved",
     image: "/lotus.jpeg",
@@ -47,12 +47,12 @@ export default function FeaturedProducts() {
   },
   {
     id: 4,
-    title: "Chocolate Truffle Bites",
+    title: "pancakes",
     category: "CHEF'S SPECIAL",
     tag: "Limited Edition",
     image: "/Copy of 1c4911ba-1f86-44b8-be7b-5d203f89b11d - Harshit Khandelwal.jpeg",
     description:
-      "Rich chocolate truffle bites handcrafted with smooth chocolate coating that melts in every delicious bite.",
+      "Rich pancakes handcrafted with smooth pancakes coating that melts in every delicious bite.",
     bgColor: "bg-[#f3ebf6]/40",
   },
   {
@@ -73,7 +73,7 @@ export default function FeaturedProducts() {
     image: "/Brownie Sundae.jpeg",
     description:
       "Rich chocolate brownie paired with creamy ice cream, chocolate sauce, and crunchy toppings for a dessert you'll crave.",
-    bgColor: "bg-[#f3ebf6]/40",
+    bgColor: "bg-[#f3ebf6]/40", 
   },
   {
     id: 7,
