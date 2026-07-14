@@ -7,7 +7,7 @@ export default function FranchiseFAQ() {
   const [openIdx, setOpenIdx] = useState<number | null>(null);
 
   const faqs = [
-    { q: "What is the operational gross margin percentage?", a: "Waff~hill setups typically register up to 65-70% gross margins due to centralized bulk supply structures and raw material pricing controls." },
+    { q: "What is the operational gross margin percentage?", a: "Waff~hil setups typically register up to 65-70% gross margins due to centralized bulk supply structures and raw material pricing controls." },
     { q: "Is prior experience required in commercial bakeries?", a: "No. Our pre-formulated signature batter base tech and automated bakers remove dependency on professional culinary artists completely. Standard staff handles execution." },
     { q: "What is the timeline required from signing to live store launch?", a: "The entire onboarding lifecycle takes between 21 to 30 days depending on space location configuration and fit-out custom deployment." },
     { q: "How are regional raw inventory supplies managed?", a: "All basic premixes and branded packaging assets are shipped directly from our corporate central logistics terminal directly to your store node." }

@@ -7,13 +7,13 @@ export default function ChoosePath() {
     {
       title: "FOFO Model",
       subtitle: "Franchise Owned Franchise Operated",
-      desc: "Ideal for hands-on entrepreneurs looking to manage operations completely while utilizing Waff~hill's supply line blueprints.",
+      desc: "Ideal for hands-on entrepreneurs looking to manage operations completely while utilizing Waff~hil's supply line blueprints.",
       points: ["100% operational profit keeping", "Direct management setup control", "Centralized raw material support"],
     },
     {
       title: "FOCO Model",
       subtitle: "Franchise Owned Company Operated",
-      desc: "Perfect for passive financial partners. You invest your capital, and Waff~hill's corporate team handles full operations.",
+      desc: "Perfect for passive financial partners. You invest your capital, and Waff~hil's corporate team handles full operations.",
       points: ["Hassle-free passive returns", "Brand managed day-to-day staff", "Shared revenue pool system"],
     },
     {

@@ -13,17 +13,17 @@ export default function OurStory() {
     {
       year: "2024",
       title: "The Food Truck Origin",
-      description: "Waff~hill started with a single, highly energetic food truck setup. We focused entirely on custom product density, premium imports, and testing product feedback loops directly on the streets.",
+      description: "Waff~hil started with a single, highly energetic food truck setup. We focused entirely on custom product density, premium imports, and testing product feedback loops directly on the streets.",
     },
     {
       year: "Weeks from Launch",
       title: "Going Globally Viral",
-      description: "Waff~hill's Strawberry Triple Chocolate waffle went completely viral within weeks of launch. This signature traction proved that structural premium quality captures immediate customer repetition.",
+      description: "Waff~hil's Strawberry Triple Chocolate waffle went completely viral within weeks of launch. This signature traction proved that structural premium quality captures immediate customer repetition.",
     },
     {
       year: "Today & Beyond",
       title: "Rajasthan Scaling Footprint",
-      description: "Today, Waff~hill is expanding across Rajasthan with a strong focus on Tier 2 and Tier 3 cities—bringing unmatched dessert experiences to premium markets that were previously underserved.",
+      description: "Today, Waff~hil is expanding across Rajasthan with a strong focus on Tier 2 and Tier 3 cities—bringing unmatched dessert experiences to premium markets that were previously underserved.",
     },
   ];
 
@@ -39,7 +39,7 @@ export default function OurStory() {
               Food Truck to Multi-City Brand
             </h2>
             <p className="text-xs sm:text-sm text-[#6e3568]/70 font-normal leading-relaxed">
-              From signature Waffles and Bowl Cakes to Eton Mess, Brownies, Sundaes, and Pancakes, Waff~hill focuses on products customers love to order repeatedly—driving high footfall and strong repeat purchase rates.
+              From signature Waffles and Bowl Cakes to Eton Mess, Brownies, Sundaes, and Pancakes, Waff~hil focuses on products customers love to order repeatedly—driving high footfall and strong repeat purchase rates.
             </p>
           </div>
           

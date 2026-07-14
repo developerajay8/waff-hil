@@ -14,7 +14,7 @@ export default function AboutHero() {
           {/* Brand Tag Node */}
           <div className="inline-flex items-center gap-2 bg-[#6e3568]/5 border border-[#6e3568]/10 px-4 py-2 rounded-full text-[10px] font-bold uppercase tracking-widest text-[#6e3568]">
             <Sparkles size={11} className="text-[#b68cb2]" />
-            <span>The Waff~hill Story</span>
+            <span>The Waff~hil Story</span>
           </div>
 
           {/* Heading with Premium Serif Pair */}
@@ -28,7 +28,7 @@ export default function AboutHero() {
 
           {/* Content Aligned Context Brand Paragraph */}
           <p className="text-xs sm:text-sm md:text-base text-[#6e3568]/80 font-normal leading-relaxed max-w-2xl">
-            Waff~hill was founded in 2024 with a simple vision: to build a modern dessert brand that combines premium products, affordable pricing, and a highly scalable franchise model.
+            Waff~hil was founded in 2024 with a simple vision: to build a modern dessert brand that combines premium products, affordable pricing, and a highly scalable franchise model.
           </p>
           
         </div>

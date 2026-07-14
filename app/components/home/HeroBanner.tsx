@@ -22,12 +22,12 @@ export default function HeroBanner() {
           </div>
           
           <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl font-extrabold text-[#6e3568] leading-[1.15] lg:leading-[1.1] tracking-tight">
-            Welcome to Waff~hill <br />
+            Welcome to Waff~hil <br />
             The Heart of <span className="text-[#b68cb2] italic font-normal">Artisanal Waffles</span>
           </h1>
           
           <p className="text-sm sm:text-base md:text-lg text-[#6e3568]/80 font-light leading-relaxed max-w-xl">
-           Waff~hill is a premium dessert franchise built by a group of friends who wanted Tier-1 indulgence without the Tier-1 price tag — or the pretense. 10+ outlets, and counting.
+           Waff~hil is a premium dessert franchise built by a group of friends who wanted Tier-1 indulgence without the Tier-1 price tag — or the pretense. 10+ outlets, and counting.
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto pt-2 sm:pt-4">

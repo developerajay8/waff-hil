@@ -26,7 +26,7 @@ export default function StoresHero() {
             <div className="w-12 h-[2px] bg-[#b68cb2]" />
 
             <p className="text-xs sm:text-sm text-[#6e3568]/80 font-normal leading-relaxed">
-              Waff~hill is executing a systematic city-by-city expansion blueprint—starting with Rajasthan’s most opportunity-rich markets before scaling our premium dessert setups nationally.
+              Waff~hil is executing a systematic city-by-city expansion blueprint—starting with Rajasthan’s most opportunity-rich markets before scaling our premium dessert setups nationally.
             </p>
           </div>
 

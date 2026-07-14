@@ -9,12 +9,12 @@ export default function TermsAndConditionsPage() {
     {
       icon: <ShoppingBag size={20} className="text-[#b68cb2]" />,
       title: "1. Commercial Menu & Pricing Parameters",
-      content: "All listed financial numbers, menu layouts, seasonal dessert rates, and signature additions display dynamic calculations across our physical franchise lounge spots. Waff~hill reserves the absolute system privilege to structural adjustments of menu arrays, items accessibility, and dynamic price shifting variants without rendering previous warnings."
+      content: "All listed financial numbers, menu layouts, seasonal dessert rates, and signature additions display dynamic calculations across our physical franchise lounge spots. Waff~hil reserves the absolute system privilege to structural adjustments of menu arrays, items accessibility, and dynamic price shifting variants without rendering previous warnings."
     },
     {
       icon: <Landmark size={20} className="text-[#b68cb2]" />,
       title: "2. Intellectual Property Rights & Frameworks",
-      content: "The layout designs, dynamic code setups, digital illustrations, recipe structure configurations, and brand asset vectors displayed on this domain platform belong strictly to Waff~hill corporate domains. Unauthorized scraping, replication of system codes, or duplication of text copy protocols for external monetization layout modules will instantly trigger dynamic legal damage evaluation mechanics."
+      content: "The layout designs, dynamic code setups, digital illustrations, recipe structure configurations, and brand asset vectors displayed on this domain platform belong strictly to Waff~hil corporate domains. Unauthorized scraping, replication of system codes, or duplication of text copy protocols for external monetization layout modules will instantly trigger dynamic legal damage evaluation mechanics."
     },
     {
       icon: <Scale size={20} className="text-[#b68cb2]" />,
@@ -24,7 +24,7 @@ export default function TermsAndConditionsPage() {
     {
       icon: <ShieldAlert size={20} className="text-[#b68cb2]" />,
       title: "4. Limitations of Online Domain Accountability",
-      content: "While our systems maintain strict hardware-accelerated code uptime parameters, Waff~hill denies framework liability for third-party map data misalignments, network structural drops, or short-term hosting processing stalls. The online portal platform operates explicitly on an 'As-Is' structural delivery standard."
+      content: "While our systems maintain strict hardware-accelerated code uptime parameters, Waff~hil denies framework liability for third-party map data misalignments, network structural drops, or short-term hosting processing stalls. The online portal platform operates explicitly on an 'As-Is' structural delivery standard."
     }
   ];
 

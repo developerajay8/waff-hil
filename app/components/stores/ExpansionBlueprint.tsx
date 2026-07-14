@@ -12,7 +12,7 @@ export default function ExpansionBlueprint() {
     {
       icon: <Target size={18} />,
       title: "First-Mover Market Advantage",
-      desc: "Tier 2 and Tier 3 markets remain highly under-penetrated by high-end premium luxury dessert profiles, giving Waff~hill a massive brand recall edge."
+      desc: "Tier 2 and Tier 3 markets remain highly under-penetrated by high-end premium luxury dessert profiles, giving Waff~hil a massive brand recall edge."
     },
     {
       icon: <Users2 size={18} />,

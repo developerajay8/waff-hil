@@ -15,8 +15,8 @@ export default function FAQ() {
   const faqs: FAQItem[] = [
     {
       id: 1,
-      question: "Waff~hill premium waffles regular dessert outlets se kaise alag hain?",
-      answer: "Waff~hill me hum density aur crispness ka ek unique gold-standard maintain karte hain. Hamara waffle base delivery ke baad bhi soggy nahi hota aur iski recipe exclusive premium ingredients ke saath design ki gayi hai jo har bite me lounge-style luxury taste deti hai.",
+      question: "Waff~hil premium waffles regular dessert outlets se kaise alag hain?",
+      answer: "Waff~hil me hum density aur crispness ka ek unique gold-standard maintain karte hain. Hamara waffle base delivery ke baad bhi soggy nahi hota aur iski recipe exclusive premium ingredients ke saath design ki gayi hai jo har bite me lounge-style luxury taste deti hai.",
     },
     {
       id: 2,
@@ -25,13 +25,13 @@ export default function FAQ() {
     },
     {
       id: 3,
-      question: "Waff~hill franchise start karne ke liye kitne investment ki zarurat hai?",
+      question: "Waff~hil franchise start karne ke liye kitne investment ki zarurat hai?",
       answer: "Humne pure business operations ko lean aur highly profitable format me design kiya hai. Hamare franchise models 'Under 25 Lakhs' ki range se shuru ho jaate hain, jo kam space aur heavy dine-in overheads ke bina fast rollout allow karte hain.",
     },
     {
       id: 4,
       question: "Kya menu aur ingredient quality har outlet par consistent rehti hai?",
-      answer: "Bilkul. Waff~hill rigid quality standards aur predictable margins par kaam karta hai. Hamare premium imports aur standard operating procedures (SOPs) yeh ensure karte hain ki Jaipur se lekar Ajmer tak, har customer ko same elite flavor aur signature presentation mile.",
+      answer: "Bilkul. Waff~hil rigid quality standards aur predictable margins par kaam karta hai. Hamare premium imports aur standard operating procedures (SOPs) yeh ensure karte hain ki Jaipur se lekar Ajmer tak, har customer ko same elite flavor aur signature presentation mile.",
     },
     {
       id: 5,
@@ -60,7 +60,7 @@ export default function FAQ() {
             Everything You <br className="hidden md:block" /> Need to Know
           </h2>
           <p className="text-[#6e3568]/70 font-normal text-xs sm:text-sm mt-2 max-w-sm leading-relaxed">
-            Waff~hill brand, premium products, aur hamare lean business franchise model ke baare me kuch ahem baatein.
+            Waff~hil brand, premium products, aur hamare lean business franchise model ke baare me kuch ahem baatein.
           </p>
         </div>
 

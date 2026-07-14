@@ -23,7 +23,7 @@ export default function Testimonials() {
   const reviews: Testimonial[] = [
     {
       id: 1,
-      quote: "Waff~hill completely changed our perception of desserts. The crisp density of the waffle base stays fresh even after delivery. It is absolute premium craftsmanship.",
+      quote: "Waff~hil completely changed our perception of desserts. The crisp density of the waffle base stays fresh even after delivery. It is absolute premium craftsmanship.",
       author: "Rohan Malhotra",
       role: "Jaipur Food Enthusiast",
     },
@@ -41,7 +41,7 @@ export default function Testimonials() {
     },
     {
       id: 4,
-      quote: "Predictable margins and rigid quality standards make Waff~hill stand out from regular dessert chains. Their focus on premium imports is highly noticeable in the taste.",
+      quote: "Predictable margins and rigid quality standards make Waff~hil stand out from regular dessert chains. Their focus on premium imports is highly noticeable in the taste.",
       author: "Vikramaditya Singh",
       role: "Investor & Partner",
     },

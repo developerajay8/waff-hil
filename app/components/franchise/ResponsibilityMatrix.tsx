@@ -33,7 +33,7 @@ export default function ResponsibilityMatrix() {
                 <ShieldCheck size={20} />
               </div>
               <div>
-                <h3 className="font-serif text-xl font-bold text-[#6e3568]">Waff~hill Corporate</h3>
+                <h3 className="font-serif text-xl font-bold text-[#6e3568]">Waff~hil Corporate</h3>
                 <p className="text-[10px] font-bold uppercase text-[#b68cb2] tracking-wide mt-0.5">Core Brand Responsibilities</p>
               </div>
             </div>

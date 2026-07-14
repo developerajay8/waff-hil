@@ -26,7 +26,7 @@ export default function StoreCount() {
       badge: "PRIMARY FORMAT · PAN-INDIA",
       title: "FOFO Model",
       subtitle: "Franchise Owned · Franchise Operated",
-      tagline: "Primary pan-India structure. You own and run the outlet with Waff~hill's systems, training and brand support.",
+      tagline: "Primary pan-India structure. You own and run the outlet with Waff~hil's systems, training and brand support.",
       features: [
         "Franchise Term: 2.5 Years duration",
         "Monthly Royalty: Rs. 5,000 flat / fixed",
@@ -40,7 +40,7 @@ export default function StoreCount() {
       badge: "JAIPUR METRO ONLY",
       title: "FOCO Model",
       subtitle: "Franchise Owned · Company Operated",
-      tagline: "Waff~hill manages hiring, training, operations and rigorous quality control. You provide the strategic space.",
+      tagline: "Waff~hil manages hiring, training, operations and rigorous quality control. You provide the strategic space.",
       features: [
         "Available strictly within Jaipur region",
         "Complete hands-free passive business run",
@@ -77,7 +77,7 @@ export default function StoreCount() {
             </span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl font-medium text-[#6e3568] tracking-tight leading-tight">
-            Why Entrepreneurs Choose Waff~hill
+            Why Entrepreneurs Choose Waff~hil
           </h2>
           <p className="text-[#6e3568]/70 font-normal text-sm md:text-base mt-1">
             Built for scalability, engineered for absolute simple execution.
