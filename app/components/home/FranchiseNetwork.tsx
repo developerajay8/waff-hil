@@ -10,6 +10,8 @@ export default function FranchiseNetwork() {
     soon: ["Pushkar", "Bhilwara", "Jodhpur", "Jaipur - 3rd Outlet", "Ajmer - 3rd Outlet"],
     radar: ["Udaipur", "Kota"]
   };
+  const [loading, setLoading] = useState(false);
+const [submitted, setSubmitted] = useState(false);
 
   const [formData, setFormData] = useState({
     fullName: "",
@@ -19,10 +21,48 @@ export default function FranchiseNetwork() {
     investment: "Under 25 Lakhs"
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Enquiry Submitted:", formData);
-  };
+ const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setLoading(true);
+
+  try {
+    const res = await fetch(
+      'https://script.google.com/macros/s/AKfycbyasSpolSn2BdVLQGVtqeMJLz6ttyhPNjC9W99QUySVVlquxIpmfqSlltRviI2MGdjL/exec',
+      {
+        method: 'POST',
+        body: JSON.stringify(formData),
+      }
+    );
+
+    const data = await res.json();
+
+    if (data.success) {
+      setSubmitted(true);
+
+      // form reset
+      setFormData({
+        fullName: '',
+        phone: '',
+        city: '',
+        model: 'FOFO',
+        investment: 'Under 25 Lakhs',
+      });
+
+      setTimeout(() => {
+        setSubmitted(false);
+      }, 2000);
+
+    } else {
+      alert('Form submit failed');
+    }
+
+  } catch (err) {
+    console.error('Error:', err);
+    alert('Something went wrong');
+  } finally {
+    setLoading(false);
+  }
+};
 
   return (
     <div  className="w-full bg-[#fcfdfe] select-none">
@@ -244,12 +284,24 @@ export default function FranchiseNetwork() {
                 </div>
 
                 {/* Submit Button */}
-                <button 
-                  type="submit" 
-                  className="w-full mt-3 bg-[#6e3568] hover:bg-[#54284f] text-[#fcfdfe] font-bold text-xs tracking-wider uppercase py-4 rounded-full shadow-md transition-all duration-300 transform active:scale-[0.98]"
-                >
-                  Submit Enquiry
-                </button>
+                <button
+  type="submit"
+  disabled={loading}
+  className={`w-full mt-3 py-4 cursor-pointer rounded-full font-bold transition-all duration-300
+  ${
+    submitted
+      ? "bg-green-600"
+      : "bg-[#6e3568] hover:bg-[#54284f]"
+  } text-white`}
+>
+
+  {loading
+    ? "Submitting..."
+    : submitted
+    ? "Submitted ✓"
+    : "Submit Enquiry"}
+
+</button>
               </form>
 
             </div>

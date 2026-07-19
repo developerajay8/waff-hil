@@ -24,10 +24,11 @@ export const metadata: Metadata = {
   title: "Waffhil | Premium Waffles & Desserts",
   description: "Experience the most luxurious and delicious waffles at Waffhil. Explore our menu, find stores, or open a franchise.",
   keywords: ["Waffles", "Premium Desserts", "Waffhil Franchise", "Best Waffles"],
+  metadataBase: new URL("https://waffhil.com"), // apni domain
   openGraph: {
     title: "Waffhil | Premium Waffles",
     description: "Experience the most luxurious and delicious waffles at Waffhil.",
-    url: "https://waffhil.com",
+    // url: "https://waffhil.com",
     siteName: "Waffhil",
     images: [
       {
@@ -37,6 +38,7 @@ export const metadata: Metadata = {
       },
     ],
     locale: "en_US",
+    
     type: "website",
   },
 };

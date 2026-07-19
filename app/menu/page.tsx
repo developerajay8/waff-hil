@@ -4,6 +4,7 @@ import { useState } from "react";
 import MenuHero from "@/app/components/menu/MenuHero";
 import CategoryFilter from "@/app/components/menu/CategoryFilter";
 import ProductGrid, { ProductItem } from "@/app/components/menu/ProductGrid";
+import FeaturedProducts from "../components/home/FeaturedProducts";
 
 export default function MenuPage() {
   const categories = ["ALL", "WAFFLES", "BOWL CAKES",  "BROWNIES", "SUNDAES", "PANCAKES"];
@@ -132,12 +133,13 @@ export default function MenuPage() {
   return (
     <main className="min-h-screen bg-[#fcfdfe]">
       <MenuHero />
-      <CategoryFilter 
+      {/* <CategoryFilter 
         categories={categories} 
         activeCategory={activeCategory} 
         onCategoryChange={setActiveCategory} 
-      />
-      <ProductGrid products={filteredProducts} />
+      /> */}
+      <FeaturedProducts/>
+      {/* <ProductGrid products={filteredProducts} /> */}
     </main>
   );
 }

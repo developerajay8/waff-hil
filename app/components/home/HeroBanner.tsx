@@ -6,11 +6,28 @@ import { ArrowRight, Sparkles } from "lucide-react";
 
 export default function HeroBanner() {
   return (
-    <section className="relative w-full min-h-screen lg:h-screen flex items-center bg-[#fcfdfe] pt-24 lg:pt-0 overflow-hidden select-none">
+    <section className="relative w-full min-h-screen lg:h-screen flex items-center overflow-hidden select-none bg-gradient-to-br from-[#fcfdfe] via-[#f9f2fa] to-[#f3ebf6] pt-24 lg:pt-0">
       
-      {/* Background Subtle Luxury Blobs (Hardware Accelerated) */}
-      <div className="absolute top-[-10%] right-[-10%] w-[50vw] h-[50vw] rounded-full bg-[#6e3568]/5 blur-[120px] pointer-events-none transform-gpu" />
-      <div className="absolute bottom-[-15%] left-[-10%] w-[40vw] h-[40vw] rounded-full bg-[#b68cb2]/10 blur-[100px] pointer-events-none transform-gpu" />
+      {/* Premium Background Layers */}
+
+<div className="absolute inset-0 pointer-events-none">
+
+  {/* Top Right Glow */}
+  <div className="absolute -top-32 -right-32 h-[650px] w-[650px] rounded-full bg-[#6e3568]/8 blur-[140px]" />
+
+  {/* Bottom Left Glow */}
+  <div className="absolute -bottom-40 -left-32 h-[550px] w-[550px] rounded-full bg-[#b68cb2]/15 blur-[130px]" />
+
+  {/* Center Highlight */}
+  <div className="absolute top-1/2 left-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/60 blur-[120px]" />
+
+  {/* Soft Linear Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-r from-[#6e3568]/[0.02] via-transparent to-[#b68cb2]/[0.04]" />
+  <div className="absolute inset-0 opacity-[0.03] bg-[radial-gradient(circle_at_25%_20%,#6e3568_0%,transparent_28%),radial-gradient(circle_at_75%_75%,#b68cb2_0%,transparent_30%)]" />
+<div className="absolute inset-0 rounded-[2.5rem] bg-gradient-to-br from-[#6e3568]/10 via-transparent to-[#b68cb2]/10" />
+
+<div className="absolute -bottom-10 left-1/2 -translate-x-1/2 h-32 w-72 rounded-full bg-[#6e3568]/15 blur-[70px]" />
+</div>
 
       <div className="max-w-[1440px] mx-auto w-full px-4 sm:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center h-full relative z-10 py-8 lg:py-0">
         

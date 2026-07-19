@@ -32,7 +32,7 @@ export default function Header() {
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
         isScrolled
           ? "bg-[#fcfdfe]/80 backdrop-blur-xl border-b border-[#6e3568]/10 shadow-[0_4px_30px_rgba(110,53,104,0.03)] h-20"
-          : "bg-transparent h-24"
+          : "bg-[#fcfdfe]/80 backdrop-blur-xl border-b border-[#6e3568]/10 shadow-[0_4px_30px_rgba(110,53,104,0.03)] h-24"
       }`}
     >
       <div className="max-w-[1440px] mx-auto h-full px-4 sm:px-8 flex items-center justify-between">
