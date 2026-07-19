@@ -48,19 +48,23 @@ export default function HeroBanner() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto pt-2 sm:pt-4">
-            <Link 
-              href="/menu" 
-              className="group bg-[#6e3568] text-[#fcfdfe] text-center px-8 py-4 rounded-full text-xs font-bold uppercase tracking-wider hover:bg-[#6e3568]/95 transition-all duration-300 shadow-xl shadow-[#6e3568]/10 flex items-center justify-center gap-2"
+             <Link 
+              href="/franchise" 
+              className="
+              
+              group bg-[#6e3568] text-[#fcfdfe] text-center px-8 py-4 rounded-full text-xs font-bold uppercase tracking-wider hover:bg-[#6e3568]/95 transition-all duration-300 shadow-xl shadow-[#6e3568]/10 flex items-center justify-center gap-2"
             >
-              <span>Explore Premium Menu</span>
+              Partner With Us
               <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform duration-300" />
             </Link>
             <Link 
-              href="/franchise" 
+              href="/menu" 
               className="border border-[#6e3568]/20 hover:border-[#6e3568] text-[#6e3568] text-center px-8 py-4 rounded-full text-xs font-bold uppercase tracking-wider hover:bg-[#6e3568]/5 transition-all duration-300 flex items-center justify-center"
             >
-              Partner With Us
+              <span>Explore Premium Menu</span>
+              
             </Link>
+           
           </div>
         </div>
 

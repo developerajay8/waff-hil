@@ -142,20 +142,27 @@ export default function WhyWaffHil() {
 </div>
         
         {/* Clean Premium Header Section */}
-        <div className="flex flex-col gap-2 mb-16 max-w-3xl">
-          <div className="flex items-center gap-2">
-            <div className="w-5 h-[1.5px] bg-[#9e6396]" />
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#9e6396]">
-              FRANCHISE JOURNEY
-            </span>
-          </div>
-          <h2 className="font-serif text-3xl sm:text-4xl font-medium text-[#6e3568] tracking-tight leading-tight">
-            Your Journey Starts Here
-          </h2>
-          <p className="text-[#6e3568]/70 font-normal text-sm md:text-base mt-1">
-            A clear, structured path from interest to grand opening.
-          </p>
-        </div>
+        <div className="flex flex-col gap-2 mb-16 max-w-4xl">
+  <div className="flex items-center gap-2">
+    <div className="w-5 h-[1.5px] bg-[#9e6396]" />
+    <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#9e6396]">
+      FRANCHISE JOURNEY
+    </span>
+  </div>
+
+  <h2 className="font-serif text-3xl sm:text-4xl font-medium text-[#6e3568] tracking-tight leading-tight">
+    Your Journey Starts Here
+  </h2>
+
+  <div className="mt-3 max-w-3xl">
+    <p className="text-[#6e3568]/75 font-normal text-sm md:text-base leading-relaxed text-justify md:text-left">
+      At Waffhil, we believe building a successful franchise begins with the right partnership.
+      Our step-by-step onboarding process is designed to make your journey smooth, transparent,
+      and hassle-free. From evaluating your location to launching your store, you'll have expert
+      guidance every step of the way.
+    </p>
+  </div>
+</div>
 
         {/* Roadmap Timeline Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5 md:gap-6">
